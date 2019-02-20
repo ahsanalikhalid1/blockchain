@@ -11,7 +11,7 @@ Features:
 
 2- Public and Private Keys generated, signed and validated using simple Elliptic-Curve Cryptography (ECC)
 
-3- Proof-of-Work (PoW) for Finding the Correct Hash Implemented - Difficulty can be adjusted as per will using (BLOCK_GEN_INTERVAL  & DIFF_ADJUSTMENT_INTERVAL)
+3- A Simplified Proof-of-Work (PoW) for Finding the Correct Hash Implemented - Difficulty Can be Adjusted as per Will 
 
 4- Unspent Transaction Output (UTXO Model) Used For Keeping a Record of Balance
 
@@ -66,6 +66,8 @@ link (https://curl.haxx.se/) in order to send HTTP requests to the node.
 Git Bash will be needed for sending curl requests.
 
 *GET Requests can also be send from the brower URL, for POST curl is better*
+
+You can adjust the difficulty using (BLOCK_GEN_INTERVAL  & DIFF_ADJUSTMENT_INTERVAL)
 
 ----------------
 
