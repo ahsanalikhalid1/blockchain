@@ -129,10 +129,10 @@ curl -H "Content-type:application/json" --data '{"address" : "DummyAddress" ,  "
 curl -H "Content-type:application/json" --data '{"address" : "DummyAddress" ,  "amount" : 10}' http://localhost:8080/mineTrans
 
 *NOTE: In the text files public and private keys will appear in distorted form. This is because the library used for
-generating them uses the formate uint8_t. If keys are represented as normal string and stored in text file, they cannot
-be extracted back in the code as an array with uint8_t array can contain elements like 128, 45 etc. while for a string
+generating them uses the format "uint8_t". If keys are represented as normal string and stored in text file, they cannot
+be extracted back in the code as an array with uint8_t, the array can contain elements like 128, 45 etc. while for a string
 or char array, each element represents only a specific integer or character such as 1,2,a etc. So in order to avoid
-memory issues keys are stored in a way they can be salvaged again.
+memory issues keys are stored in a way that they can be salvaged again.
 
 If you want to see your keys, I have provided functions which can be used for printing them.*
 
