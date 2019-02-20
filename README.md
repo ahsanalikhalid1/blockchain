@@ -1,6 +1,6 @@
 ----------------
 
-AAK Coin: Blockchain simplified so that you can understand its ground rules.
+AAK Coin: Blockchain simplified so that you can understand its ground rules using the simplest coding elements
 
 ----------------
 
