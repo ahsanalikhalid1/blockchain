@@ -1,0 +1,46 @@
+
+
+{
+Index: 0
+ Current Hash: hashofgenblock
+ PrevHash: 0
+ Timestamp: 1550666737
+ Nonce: 0
+ Difficulty: 0
+ Transaction ID: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+ TxIn[0] = TxOutId: 0 TxOutIndex: 0 Signature: 0
+
+ TxOut[0] = TxOutId: Cba Amount: 50
+
+}
+
+{
+Index: 1
+ Current Hash: dfcea9fae805d51db5ad0778dbb8c81c0c5c0635c458c5cc25bb69eb86c506f2
+ PrevHash: hashofgenblock
+ Timestamp: 1550666744
+ Nonce: 0
+ Difficulty: 0
+ Transaction ID: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+ TxIn[0] = TxOutId: 0 TxOutIndex: 1 Signature: 0
+
+ TxOut[0] = TxOutId: Cba Amount: 50
+
+}
+
+{
+Index: 2
+ Current Hash: 0d7618b1de0c073ae3aa9d58c0b150654712899835bacc89db11f7080c48dfc1
+ PrevHash: dfcea9fae805d51db5ad0778dbb8c81c0c5c0635c458c5cc25bb69eb86c506f2
+ Timestamp: 1550666748
+ Nonce: 0
+ Difficulty: 1
+ Transaction ID: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+ TxIn[0] = TxOutId: 0 TxOutIndex: 2 Signature: 0
+
+ TxOut[0] = TxOutId: Cba Amount: 50
+
+}
